@@ -1,0 +1,52 @@
+/* Reset */
+* {
+    /* Alternative box model */
+    box-sizing: border-box;
+
+    /* Reset the padding and margins on all elements */
+    padding: 0;
+    margin: 0;
+    background-color: #242C2E;
+}
+
+html {
+    font-size: 18px;
+    color: #FAEFEF;
+}
+
+body {
+    font-family: 'Shippori Antique B1', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #242C2E;
+    background-color: #FCF1EE;
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono';
+    word-spacing: 2px;
+    color: #F2C9BB;
+}
+
+a {
+    text-decoration: underline;
+    color: #FAEFEF;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+header, section {
+    margin-bottom: 5rem;
+}
